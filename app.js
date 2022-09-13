@@ -11,7 +11,7 @@ const load = () => {
     setTimeout(() => {
         document.getElementById('loader').style.display = 'none'
         document.getElementById('main').style.display = 'block'
-    }, 4000);
+    }, 7000);
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=karachi&appid=04fc888b507da0850a6ba657abb4eaa0`)
         .then((res) => res.json())
         .then((res) => {
