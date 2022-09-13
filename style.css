@@ -48,7 +48,7 @@ body {
     margin: 0 60px !important;
     color: white;
     margin-top: 60px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 5px !important;
     /* border: 2px solid black; */
 }
 
@@ -105,7 +105,7 @@ body {
     height: max-content;
     /* border: 2px solid white; */
     /* margin: -18% 12%; */
-    margin-top: -250px;
+    margin-top: -260px;
     margin-left: 4%;
     z-index: 1;
     color: white;
