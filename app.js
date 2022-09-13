@@ -76,52 +76,52 @@ function showData(res) {
             wind.innerHTML = `${win} km/h`
 
             if (res.weather[0].main.toLowerCase() === 'clouds') {
-                background.style.backgroundImage = 'url(/Weather-App/assets/cloudy.jpg)'
-                img.src = '/Weather-App/assets/icons/cloudy.png'
+                background.style.backgroundImage = 'url(/assets/cloudy.jpg)'
+                img.src = '/assets/icons/cloudy.png'
             }
             if (res.weather[0].main.toLowerCase() === 'smoke') {
-                background.style.backgroundImage = 'url(/Weather-App/assets/smoke.jpg)'
-                img.src = '/Weather-App/assets/icons/smoke.png'
+                background.style.backgroundImage = 'url(/assets/smoke.jpg)'
+                img.src = '/assets/icons/smoke.png'
 
             }
             if (res.weather[0].main.toLowerCase() === 'clear') {
-                background.style.backgroundImage = 'url(/Weather-App/assets/clear.png)'
-                img.src = '/Weather-App/assets/icons/clear-sky.png'
+                background.style.backgroundImage = 'url(/assets/clear.png)'
+                img.src = '/assets/icons/clear-sky.png'
 
             }
             if (res.weather[0].main.toLowerCase() === 'haze') {
-                background.style.backgroundImage = 'url(/Weather-App/assets/haze.jpg)'
-                img.src = '/Weather-App/assets/icons/sand.png'
+                background.style.backgroundImage = 'url(/assets/haze.jpg)'
+                img.src = '/assets/icons/sand.png'
 
             }
             if (res.weather[0].main.toLowerCase() === 'dust' || res.weather[0].main.toLowerCase() === 'sand') {
-                background.style.backgroundImage = 'url(/Weather-App/assets/dust.jpg)'
-                img.src = '/Weather-App/assets/icons/sand.png'
+                background.style.backgroundImage = 'url(/assets/dust.jpg)'
+                img.src = '/assets/icons/sand.png'
 
             }
             if (res.weather[0].main.toLowerCase() === 'mist' || res.weather[0].main.toLowerCase() === 'fog') {
-                background.style.backgroundImage = 'url(/Weather-App/assets/dust.jpg)'
-                img.src = '/Weather-App/assets/icons/smoke.png'
+                background.style.backgroundImage = 'url(/assets/dust.jpg)'
+                img.src = '/assets/icons/smoke.png'
 
             }
             if (res.weather[0].main.toLowerCase() === 'snow') {
-                background.style.backgroundImage = 'url(/Weather-App/assets/snow.jpg)'
-                img.src = '/Weather-App/assets/icons/snowflake.png'
+                background.style.backgroundImage = 'url(/assets/snow.jpg)'
+                img.src = '/assets/icons/snowflake.png'
 
             }
             if (res.weather[0].main.toLowerCase() === 'rain') {
-                background.style.backgroundImage = 'url(/Weather-App/assets/rainy.jpg)'
-                img.src = '/Weather-App/assets/icons/rainy-day.png'
+                background.style.backgroundImage = 'url(/assets/rainy.jpg)'
+                img.src = '/assets/icons/rainy-day.png'
 
             }
             if (res.weather[0].main.toLowerCase() === 'drizzle') {
-                background.style.backgroundImage = 'url(/Weather-App/assets/drizzle.jpg)'
-                img.src = '/Weather-App/assets/icons/drizzle.png'
+                background.style.backgroundImage = 'url(/assets/drizzle.jpg)'
+                img.src = '/assets/icons/drizzle.png'
             }
 
             if (res.weather[0].main.toLowerCase() === 'thunderstorm') {
-                background.style.backgroundImage = 'url(/Weather-App/assets/thunderstorm.jpg)'
-                img.src = '/Weather-App/assets/icons/thunderstorm.png'
+                background.style.backgroundImage = 'url(/assets/thunderstorm.jpg)'
+                img.src = '/assets/icons/thunderstorm.png'
             }
 
 
