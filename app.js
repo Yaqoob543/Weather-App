@@ -6,6 +6,9 @@ document.getElementById('time').innerHTML += date
 
 
 const load = () => {
+    window.navigator.geolocation.getCurrentPosition((position) => {
+        console.log(position.coords.latitude, position.coords.longitude)
+    })
     document.getElementById('loader').style.display = 'block'
     document.getElementById('main').style.display = 'none'
     setTimeout(() => {
@@ -25,7 +28,7 @@ const load = () => {
 function getData() {
     let search = document.getElementById('citySearch').value.toLowerCase().trim()
         //API Calling
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=04fc888b507da0850a6ba657abb4eaa0`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=04fc88it8b507da0850a6ba657abb4eaa0`)
         .then((res) => res.json())
         .then((res) => {
             showData(res)
