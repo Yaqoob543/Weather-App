@@ -15,7 +15,7 @@ const load = () => {
         document.getElementById('loader').style.display = 'none'
         document.getElementById('main').style.display = 'block'
     }, 7000);
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=karachi&appid=04fc888b507da0850a6ba657abb4eaa0`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=karachi&appid=244006e372fb520e56e50b3032f7bcf1`)
         .then((res) => res.json())
         .then((res) => {
             showData(res)
@@ -28,7 +28,7 @@ const load = () => {
 function getData() {
     let search = document.getElementById('citySearch').value.toLowerCase().trim()
         //API Calling
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=04fc88it8b507da0850a6ba657abb4eaa0`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=244006e372fb520e56e50b3032f7bcf1`)
         .then((res) => res.json())
         .then((res) => {
             showData(res)
@@ -39,6 +39,13 @@ function getData() {
 
 //Render Data
 // event.preventDefault()
+
+
+
+function abc() {
+    if (KeyboardEvent.keyCode())
+}
+abc()
 
 function showData(res) {
     let loader = document.getElementById('loaderCity')
