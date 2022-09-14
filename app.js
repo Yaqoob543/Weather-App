@@ -42,10 +42,6 @@ function getData() {
 
 
 
-function abc() {
-    if (KeyboardEvent.keyCode())
-}
-abc()
 
 function showData(res) {
     let loader = document.getElementById('loaderCity')
