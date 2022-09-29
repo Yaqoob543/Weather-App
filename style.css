@@ -236,7 +236,7 @@ span p {
 .get {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
 }
 
 .loader {
